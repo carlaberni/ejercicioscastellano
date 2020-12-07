@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Imperativos Ejercícios</title>
+</head>
+<body>
+    <style>
+        #frame001 {
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 10px;
+            width: auto;
+            height: auto;
+            padding: 5px;
+        }
+
+        #color001 {
+            color: black;
+            font-size: large;
+            text-align: left;
+        }
+
+        #center001 {
+            text-align: center;
+        }
+
+        .button001 {
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .button002 {
+            width: 10px;
+            height: 10px;
+        }
+    </style>
+    <div id="frame001">
+        <div id="color001">
+            <div id="center001">
+                <h2><strong>Imperativos</strong></h2>
+            <p style="display: none"><strong>Banco de palabras:</strong> Sé - Mostrés - Mostrés - Mostrés - Mostrés</p></div><br />
+<p>1. (Ser) 
+<input type="text" class="check003" id="input001" size="15" /><text class="button002" id="check001"></text>
+una dama, dijeron. Tu falda es muy corta. Tu camiseta es muy baja. Tus pantalones están demasiado ajustados. 2. No (mostrar)­ 
+<input id="input002" size="15" /><text class="button002" id="check002"></text>
+tanta piel. 3. No (mostrar) 
+<input id="input003" size="15" /><text class="button002" id="check003"></text> 
+tus muslos. No (mostrar) 
+<input id="input004" size="15" /><text class="button002" id="check004"></text>
+tus senos. No (mostrar)
+<input id="input005" size="15" /><text class="button002" id="check005"></text>
+tu estómago. No (mostrar) 
+<input id="input006" size="15" /><text class="button002" id="check006"></text>
+tu escote. No (mostrar) 
+<input id="input007" size="15" /><text class="button002" id="check007"></text>
+tu ropa interior. No (mostrar) 
+<input id="input008" size="15" /><text class="button002" id="check008"></text>
+tus hombros. 4.(Cubrirse) 
+<input id="input009" size="15" /><text class="button002" id="check009"></text>
+. 5. (Dejar) 
+<input id="input010" size="15" /><text class="button002" id="check010"></text>
+algo a la imaginación. 6. (Vestir)
+<input id="input011" size="15" /><text class="button002" id="check011"></text>
+con modestia. 7. No (ser) 
+<input id="input012" size="15" /><text class="button002" id="check012"></text>
+una tentativa. Los hombres no pueden controlarse a sí mismos. Los hombres tienen necesidades. Te ves desaliñada. 8. (Relajarse) 
+<input id="input013" size="15" /><text class="button002" id="check013"></text>
+un poco. 9. (Mostrar) 
+<input id="input014" size="15" /><text class="button002" id="check014"></text>
+algo de piel. 10. (Ponerse) 
+<input id="input015" size="15" /><text class="button002" id="check015"></text>
+sexy. 11. (Salir) 
+<input id="input016" size="15" /><text class="button002" id="check016"></text>
+caliente. 12. No (ser)
+<input id="input017" size="15" /><text class="button002" id="check017"></text>
+tan provocativa. Lo estás pidiendo. 13. (Vestir) 
+<input id="input018" size="15" /><text class="button002" id="check018"></text>
+de negro. 14. (Usar)
+<input id="input019" size="15" /><text class="button002" id="check019"></text>
+tacones. Estás muy vestida. Estás demasiado vestida. 15. No (usar) 
+<input id="input020" size="15" /><text class="button002" id="check020"></text>
+esos pantalones; parece que te has dejado llevar.
+
+</p>
+            <div id="disappear001"><div id="center001"><button class="button001" onclick="submit001()">Submit</button></div></div><br />
+            <div id="center001"><p id="message001"></p><p id="reload001"></p></div>
+                <br />
+            <br />
+            </div>
+    </div>
+    <script>
+        var g;
+        var h;
+        var i;
+        var j;
+        var k;
+        var gg;
+        var hh;
+        var ii;
+        var jj;
+        var kk;
+        var ggg;
+        var hhh;
+        var iii;
+        var jjj;
+        var kkk;
+        var gggg;
+        var hhhh;
+        var iiii;
+        var jjjj;
+        var kkkk;
+    
+
+        function submit001() {
+            b = input001.value;
+            c = input002.value;
+            d = input003.value;
+            e = input004.value;
+            f = input005.value;
+            l = input006.value;
+            m = input007.value;
+            n = input008.value;
+            o = input009.value;
+            p = input010.value;
+            q = input011.value;
+            r = input012.value;
+            s = input013.value;
+            t = input014.value;
+            u = input015.value;
+            v = input016.value;
+            x = input017.value;
+            w = input018.value;
+            y = input019.value;
+            z = input020.value;
+            if (b == "Sé" || b == "sé") {
+                g = 1;
+                input001.value = b;
+                check001.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input001.value = b;
+                check001.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (c == "Mostrés" || c == "mostrés") {
+                h = 1
+                input002.value = c;
+                check002.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input002.value = c;
+                check002.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (d == "Mostrés" || d == "mostrés") {
+                i = 1;
+                input003.value = d;
+                check003.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input003.value = d;
+                check003.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (e == "Mostrés" || e == "mostrés") {
+                j = 1;
+                input004.value = e;
+                check004.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input004.value = e;
+                check004.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (f == "Mostrés" || f == "mostrés") {
+                k = 1;
+                input005.value = f;
+                check005.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input005.value = f;
+                check005.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (l == "Mostrés" || l == "mostrés") {
+                gg = 1;
+                input006.value = l;
+                check006.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input006.value = l;
+                check006.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (m == "Mostrés" || m == "mostrés") {
+                hh = 1;
+                input007.value = m;
+                check007.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input007.value = m;
+                check007.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (n == "Mostrés" || n == "mostrés") {
+                ii = 1;
+                input008.value = n;
+                check008.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input008.value = n;
+                check008.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (o == "Cbríte" || o == "cubríte") {
+                jj = 1;
+                input009.value = o;
+                check009.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input009.value = o;
+                check009.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (p == "Dejá" || p == "dejá") {
+                kk = 1;
+                input010.value = p;
+                check010.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input010.value = p;
+                check010.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (q == "Vestí" || q == "vestí") {
+                ggg = 1;
+                input011.value = q;
+                check011.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input011.value = q;
+                check011.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (r == "Seas" || r == "seas") {
+                hhh = 1;
+                input012.value = r;
+                check012.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input012.value = r;
+                check012.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (s == "Relajáte" || s == "relajáte") {
+                iii = 1;
+                input013.value = s;
+                check013.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input013.value = s;
+                check013.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (t == "Mostrá" || t == "mostrá") {
+                jjj = 1;
+                input014.value = t;
+                check014.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input014.value = t;
+                check014.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (u == "Ponéte" || u == "ponéte") {
+                kkk = 1;
+                input015.value = u;
+                check015.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input015.value = u;
+                check015.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (v == "Salí" || v == "salí") {
+                gggg = 1;
+                input016.value = v;
+                check016.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input016.value = v;
+                check016.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (x == "Seas" || x == "seas") {
+                hhhh = 1;
+                input017.value = x;
+                check017.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input017.value = x;
+                check017.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (w == "Vestí" || w == "vestí") {
+                iiii = 1;
+                input018.value = w;
+                check018.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input018.value = w;
+                check018.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (y == "Usá" || y == "usá") {
+                jjjj = 1;
+                input019.value = y;
+                check019.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input019.value = y;
+                check019.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+            if (z == "Uses" || z == "uses") {
+                kkkk = 1;
+                input020.value = z;
+                check020.innerHTML = "<text class=button002>" + "✔" + "</text>";
+            } else {
+                input020.value = z;
+                check020.innerHTML = "<text class=button002>" + "✖" + "</text>";
+            }
+
+            if (g == 1 && h == 1 && i == 1 && j == 1 && k == 1 && gg == 1 && hh == 1 && ii == 1 && jj == 1 && kk == 1 && ggg == 1 && hhh == 1 && iii == 1 && jjj == 1 && kkk == 1 && gggg == 1 && hhhh == 1 && iiii == 1 && jjjj == 1 && kkkk == 1) {
+                message001.innerHTML = "Congratulation! You have successfully finished this quiz.";
+                disappear001.innerHTML = "";
+                reload001.innerHTML = "<div id=center001><button class=button001 onclick=repeat001()>Repeat</button></div>";
+            }
+        }
+
+            function repeat001() {
+                location.reload();
+            }
+    </script>
+</body>
+</html>
